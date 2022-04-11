@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* =======================콘텐츠======================= */
+
+img {
+	width: 300px;
+	float: left;
+	margin: 0px 20px 0px 20px;
+}
+#greetings {
+	float: left;
+	font-size: 18px;
+}

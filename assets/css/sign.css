@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+#wrap>#full-contents>div {
+	border-bottom: 1px solid #dddddd;
+	padding: 10px 0px 10px 0px;
+}
+
+#wrap>#full-contents>div>.form-title {
+	width: 90px;
+	display: inline-block;
+}
+
+/* board.css 로 설정함
+#full-contents input[type="text"], input[type="password"], select {
+	padding: 2px 0px 2px 2px;
+}
+
+#full-contents input[type="radio"], input[type="checkbox"] {
+	margin: 0px 5px 0px 0px;
+} */
+#full-contents>div>label[for="zipcode"] {
+	float: left;
+}
+#full-contents>div>#address {
+	width: 500px;
+	margin: 5px 0px 0px 90px; /* 모르겠어서 꼼수쓴 부분 */
+}
+
+#full-contents>div>label[for="introduce"] {
+	float: left;
+}
+textarea {
+	width: 500px;
+	height: 200px;
+	resize: none;
+}
+
+
+/* contents-footer (등록,초기화버튼) */
+#full-contents>#contents-footer {
+	width: 100%;
+	text-align: center;
+}
